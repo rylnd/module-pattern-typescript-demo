@@ -1,0 +1,8 @@
+{
+  "presets": ["env"],
+  "plugins": [
+    ["replace-require", {
+      "rylnd-archetype": "require('rylnd-archetype/require')"
+    }]
+  ]
+}
