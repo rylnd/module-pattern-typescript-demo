@@ -1,11 +1,17 @@
 {
-  "name": "builder-demo",
+  "name": "module-pattern-typescript-demo",
   "version": "1.0.0",
-  "description": "Example repo with typescript and builder",
+  "description": "Example repo with typescript and the module pattern",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "Ryland Herrick",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0"
+  }
 }
