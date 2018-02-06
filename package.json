@@ -5,12 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "rm -rf ./dist && webpack --display-error-details",
+    "babel-output": "babel src"
   },
   "author": "Ryland Herrick",
   "license": "ISC",
   "devDependencies": {
     "awesome-typescript-loader": "^3.4.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-replace-require": "0.0.4",
+    "babel-preset-env": "^1.6.1",
     "typescript": "^2.7.1",
     "webpack": "^3.10.0"
   },
